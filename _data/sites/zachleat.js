@@ -1,6 +1,6 @@
 module.exports = {
 	name: "zachleat.com", // optional, falls back to object key
-	description: "Zach’s Personal web site",
+	description: "Scottish University Sites",
 	// skip if localhost
 	// skip if this is a new fork of the speedlify (not Zach’s)
 	skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
@@ -13,17 +13,22 @@ module.exports = {
 		freshChrome: "site"
 	},
 	urls: [
-		"https://www.zachleat.com/",
-		"https://www.zachleat.com/web/",
-		"https://www.zachleat.com/web/about/",
-		"https://www.zachleat.com/web/fonts/",
-		"https://www.zachleat.com/web/eleventy/",
-		"https://www.zachleat.com/resume/",
-		"https://www.zachleat.com/twitter/",
-		// Popular Posts
-		"https://www.zachleat.com/web/lighthouse-in-footer/",
-		"https://www.zachleat.com/web/speedlify/",
-		"https://www.zachleat.com/web/comprehensive-webfonts/",
-		"https://www.zachleat.com/web/google-fonts-display/",
+		"https://www.abertay.ac.uk/",
+		"https://www.napier.ac.uk/",
+		"https://www.gcu.ac.uk/",
+		"https://www.gsa.ac.uk/",
+		"http://www.hw.ac.uk/",
+		"https://www.qmu.ac.uk/",
+		"https://www.rgu.ac.uk/",
+		"https://www.rcs.ac.uk/",
+		"http://www.abdn.ac.uk/",
+		"http://www.dundee.ac.uk/",
+		"http://www.ed.ac.uk/",
+		"http://www.gla.ac.uk/",
+		"https://www.st-andrews.ac.uk/",
+		"http://www.stir.ac.uk/",
+		"http://www.strath.ac.uk/",
+		"https://www.uhi.ac.uk/en/",
+		"https://www.uws.ac.uk/"
 	]
 };
