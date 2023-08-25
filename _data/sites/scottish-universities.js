@@ -1,5 +1,5 @@
 module.exports = {
-	name: "zachleat.com", // optional, falls back to object key
+	name: "Scottish Unis", // optional, falls back to object key
 	description: "Scottish University Sites",
 	// skip if localhost
 	// skip if this is a new fork of the speedlify (not Zach’s)
